@@ -112,11 +112,11 @@ sudo apt-get install python3-venv
 
 Now I suggest to create, in your home folder, a new folder that will include all your virtual environments. I will call this folder `pyenv`.
 ```bash
-mkdir ~/pyenv # "~" leades to your home folder 
+mkdir ~/pyenv # "~" create the folder
 ```
 Change directory to `pyenv`
 ```bash
-cd ~/pyenv # "~" leades to your home folder 
+cd ~/pyenv # "~" leads to your home folder 
 ```
 
 Now, you can create a virtual environment with the following command. I will call the virtual environment `env_test`.
