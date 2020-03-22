@@ -98,7 +98,7 @@ which python
 <p align="center">
 <img src="./img/miniconda3.png" width="400">
 <br>
-    <em>Fig.4 - Verify miniconda installation.</em>
+    <em>Fig.5 - Verify miniconda installation.</em>
 </p>
 
 ## 3. Configure a virtual environment
@@ -137,7 +137,7 @@ which python
 Remarks:
 * of course you have to replace luca with your username
 * notice that, even if you created the virtual environment with `python3`, inside the virtual environment you call Python with `python`.
-* notice the location of the `python` intepreter in the virtual environment provided by `which python`. Please compare Fig. 5 with Fig. 2.
+* notice the location of the `python` intepreter in the virtual environment provided by `which python`. Please compare Fig. 6 with Fig. 2.
 
 Finally, if you need to deactivate the environment you can run:
 ```bash
@@ -147,7 +147,7 @@ deactivate
 <p align="center">
 <img src="./img/virtualenv1.png" width="400">
 <br>
-    <em>Fig.5 - Creating a virtual environment.</em>
+    <em>Fig.6 - Creating a virtual environment.</em>
 </p>
 
 
@@ -162,10 +162,10 @@ conda create -n conda_env python=3.7
 <p align="center">
 <img src="./img/conda_env1.png" width="400">
 <br>
-    <em>Fig.6 - Creating a conda environment.</em>
+    <em>Fig.7 - Creating a conda environment.</em>
 </p>
 
-As shown in Fig. 6, to activate the environment you need to run:
+As shown in Fig. 8, to activate the environment you need to run:
 ```bash
 conda activate conda_env
 ```
@@ -179,12 +179,12 @@ Again, you can check the Python version in use with:
 python --version
 which python
 ```
-and deactivate it, eventually (see Fig. 7).
+and deactivate it, eventually (see Fig. 8).
 
 <p align="center">
 <img src="./img/conda_env2.png" width="400">
 <br>
-    <em>Fig.7 - Check the conda envitonment.</em>
+    <em>Fig.8 - Check the conda envitonment.</em>
 </p>
 
 ## 4. Install packages
@@ -210,7 +210,7 @@ pip list
 <p align="center">
 <img src="./img/pip_list.png" width="400">
 <br>
-    <em>Fig.8 - pip list.</em>
+    <em>Fig.9 - pip list.</em>
 </p>
 
 ### 4.2 Miniconda
@@ -233,7 +233,7 @@ conda list
 <p align="center">
 <img src="./img/conda_list.png" width="400">
 <br>
-    <em>Fig.8 - conda list.</em>
+    <em>Fig.10 - conda list.</em>
 </p>
 
 ## 5. Try the environment
@@ -262,10 +262,10 @@ exit
 <p align="center">
 <img src="./img/example_plot.png" width="600">
 <br>
-    <em>Fig.9 - example of use.</em>
+    <em>Fig.11 - example of use.</em>
 </p>
 
-Not that the same output can be obtaned writing a file (use whatever text editor) and listing all the command the in the file.
+Not that the same output can be obtained writing a file (use whatever text editor) and listing all the command the in the file.
 
 We can use vscodium that can be installed with this procedure:
 ```bash
@@ -288,7 +288,7 @@ run example.py
 <p align="center">
 <img src="./img/example_plot2.png" width="600">
 <br>
-    <em>Fig.10 - example of use.</em>
+    <em>Fig.12 - example of use.</em>
 </p>
 
 
@@ -314,7 +314,7 @@ pwd
 <p align="center">
 <img src="./img/path.png" width="400">
 <br>
-    <em>Fig.11 - path of the software.</em>
+    <em>Fig.13 - path of the software.</em>
 </p>
 
 ### 6.2 Add the PATH of the software to the preinstalled Python
@@ -348,12 +348,12 @@ sys.path
 import netlist as ntl
 ```
 
-See Fig. 12 for a summary.
+See Fig. 14 for a summary.
 
 <p align="center">
 <img src="./img/install_spicepy_python.png" width="600">
 <br>
-    <em>Fig.12 - install SpicePy and make it visible to the preinstalled Python.</em>
+    <em>Fig.14 - install SpicePy and make it visible to the preinstalled Python.</em>
 </p>
 
 ### 6.3 Add the PATH of the software to conda
@@ -387,12 +387,12 @@ sys.path
 import netlist as ntl
 ```
 
-See Fig. 13 for a summary.
+See Fig. 15 for a summary.
 
 <p align="center">
 <img src="./img/install_spicepy_conda.png" width="600">
 <br>
-    <em>Fig.13 - install SpicePy and make it visible to conda.</em>
+    <em>Fig.15 - install SpicePy and make it visible to conda.</em>
 </p>
 
 ### 6.4 Run all benchmark and some demo
@@ -412,12 +412,12 @@ ipython
 run run_benchmark.py
 ```
 
-See Fig. 14.
+See Fig. 16.
 
 <p align="center">
 <img src="./img/run_benchmark.png" width="400">
 <br>
-    <em>Fig.14 - run benchmark.</em>
+    <em>Fig.16 - run benchmark.</em>
 </p>
 
 **run a single demo:**
@@ -425,12 +425,12 @@ See Fig. 14.
 ```bash
 cd ~/ext_packages/SpicePy/demo/
 ```
-2. run one of the possible demo. See Fig.15 for two examples.
+2. run one of the possible demo. See Fig.17 for two examples.
 
 <p align="center">
 <img src="./img/run_single_demo.png" width="700">
 <br>
-    <em>Fig.14 - run benchmark.</em>
+    <em>Fig.17 - run benchmark.</em>
 </p>
 
 
