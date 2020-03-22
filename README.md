@@ -5,12 +5,12 @@ Thi si Yet Another Tutorial About Python. It is not expected to be the best or t
 This guide covers basic information about the use of [Python](https://www.python.org/) on a GNU/Linux operating system. All procedures are tested on [Ubuntu 19.10](https://ubuntu.com/) virtualized by means of [VirtualBox](https://www.virtualbox.org/).
 
 Two versions of Python will be considered:
-* the one that comes preintalled with Manjaro (likely not the latest version)
+* the one that comes preinstalled with Ubuntu 19.10 (likely not the latest version)
 * [Anaconda Python](https://www.anaconda.com/distribution/) distrubution in its minimal version [miniconda](https://docs.conda.io/en/latest/miniconda.html).
 
 If you plan to use Python for scientific purposed, my advise is to use [Anaconda Python](https://www.anaconda.com/distribution/) distribution.
 
-**Warning** In this tutorial I will use absolute path referring to my system and to my examples. For example, the home folder will always be `/home/luca` in my case. It's up to the reader adjust them according to their system settings. 
+**Warning** In this tutorial I will use absolute paths referring to my system and to my examples. For example, the home folder will always be `/home/luca` in my case. It's up to the reader adjust them according to their system settings. 
 
 
 ### 1.1 Some tips about VirtualBox
